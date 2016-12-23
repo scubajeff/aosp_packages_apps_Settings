@@ -2215,6 +2215,25 @@
     <!-- Display settings screen, summary of night display when on and will turn off automatically at sunrise. [CHAR LIMIT=NONE] -->
     <string name="night_display_summary_on_auto_mode_twilight">Will turn off automatically at sunrise.</string>
 
+    <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
+    <string name="night_mode_title">Theme</string>
+    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
+    <string name="night_mode_summary">%s</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_no">Light</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_yes">Dark</string>
+    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_auto">Automatic</string>
+    <!-- Sound & display settings screen, setting option name to change screen colortone -->
+    <string name="screen_colortone">Colortone</string>
+    <!-- Sound & display settings screen, setting option name to change screen colortone [CHAR LIMIT=30] -->
+    <string name="screen_colortone_title">Colortone mode</string>
+    <!-- Sound & display settings screen, setting option summary to change screen colortone -->
+    <string name="screen_colortone_summary"><xliff:g id="mode_description">%1$s</xliff:g></string>
+    <!-- Sound & display settings screen, setting option name to change screen colortone -->
+    <string name="button_light_title">Button backlight</string>
+
     <!-- Sound & display settings screen, setting option name to change screen timeout -->
     <string name="screen_timeout">Sleep</string>
     <!-- Sound & display settings screen, setting option name to change screen timeout [CHAR LIMIT=30] -->
