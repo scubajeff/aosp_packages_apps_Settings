@@ -58,6 +58,19 @@
                         android:targetClass="@string/config_wallpaper_picker_class" />
         </com.android.settingslib.RestrictedPreference>
 
+        <ListPreference
+                android:key="screen_colortone"
+                android:title="@string/screen_colortone"
+                android:summary="@string/screen_colortone_summary"
+                android:persistent="false"
+                android:entries="@array/screen_colortone_entries"
+                android:entryValues="@array/screen_colortone_values" />
+
+        <SwitchPreference
+                android:key="button_light"
+                android:title="@string/button_light_title"
+                android:persistent="false" />
+
         <com.android.settings.TimeoutListPreference
                 android:key="screen_timeout"
                 android:title="@string/screen_timeout"
